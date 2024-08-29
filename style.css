@@ -34,6 +34,7 @@ h1{
     color: #4A1D1F;
     text-align: right;
 }
+
 header img{
     width: 34px;
     height: 34px;
@@ -83,12 +84,15 @@ grid-column: 6;
     border: 2px solid #4A1D1F;
     width: 251px;
     height: 45px;
-    background-color: pink;
 }
 
 .search-input{
     border: none;
     width: 100%;
+}
+
+input{
+    padding-left: 17px;
 }
 
 .form-button{
