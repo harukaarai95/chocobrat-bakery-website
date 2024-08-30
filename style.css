@@ -386,6 +386,7 @@ input{
     padding-bottom: 0%;
     font-size: 35px;
     color: #4A1D1F;
+    font-weight: 400;
 }
 
 .contain1 {
@@ -408,6 +409,7 @@ input{
     padding-bottom: 0%;
     font-size: 35px;
     color: #4A1D1F;
+    font-weight: 400;
 }
 
 .contain2 {
@@ -469,17 +471,18 @@ h4 {
     color: #272727;
 }
 
-#recensioni p {
+.recensioni {
     font-size: 50px;
     padding-left: 20%;
     padding-right: 20%;
+    font-weight: 600;
 }
 
 .image-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+    margin: 20px 0;
 }
 
 /* Stili per le didascalie */
@@ -575,4 +578,39 @@ footer nav {
     margin-left: 0;
     justify-content: center;
     /* Allinea il paragrafo al centro orizzontalmente */
+}
+
+.quote{
+    width: 64px;
+    height: 24px;
+    font-size: 12px;
+    margin-left: calc(50% - 32px);
+    color: #4A1D1F;
+    background-color: #FBEDCD;
+    border-radius: 36px;
+    border: none;
+}
+
+.quote p{
+    padding-top: 3px;
+}
+
+.paragraph-item p{
+    width: 299px;
+    height: 24px;
+    font-size: 16px;
+}
+
+.quote-1{
+    position: relative;
+    top: 90px;
+    left: -400px;
+    z-index: -2;
+}
+
+.quote-2{
+    position: relative;
+    bottom: 70px;
+    right: -400px;
+    z-index: -3;  
 }
