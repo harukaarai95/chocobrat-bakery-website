@@ -16,13 +16,13 @@ header{
     background-color: white;
 }
 /********* link **************/
-header > nav ul li a:link,
-header > nav ul li a:visited{
+nav ul li a:link,
+nav ul li a:visited{
     color: #4A1D1F;
 }
 
-header > nav ul li a:hover,
-header > nav ul li a:active{
+nav ul li a:hover,
+nav ul li a:active{
     color: orange;
 }
 
@@ -87,6 +87,7 @@ grid-column: 6;
     border: 2px solid #4A1D1F;
     width: 251px;
     height: 45px;
+    
 }
 
 .search-input{
@@ -359,4 +360,219 @@ input{
     height: 10px;
     width: 29px;
     padding-left: 5px;
+}
+
+
+/********** Aurora's part ************/
+
+#foto1 {
+    float: left;
+    padding: 5%;
+}
+
+#foto23 {
+    padding: 5%;
+}
+
+.container2 {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
+    padding: 12px;
+}
+
+#h21 {
+    padding-top: 3%;
+    padding-bottom: 0%;
+    font-size: 35px;
+    color: #4A1D1F;
+}
+
+.contain1 {
+    padding-right: 5%;
+    font-size: 20px;
+    color: #272727;
+}
+
+.container3 {
+    margin-top: 40%;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
+    padding: 12px;
+    margin-left: 7%;
+}
+
+#h22 {
+    padding-top: 3%;
+    padding-bottom: 0%;
+    font-size: 35px;
+    color: #4A1D1F;
+}
+
+.contain2 {
+    padding-left: 5%;
+    font-size: 20px;
+    color: #272727;
+}
+
+section {
+    display: flex;
+}
+
+.orders {
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 2%;
+    padding-bottom: 4%;
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contact-button {
+    background-color: #4A1D1F;
+    /* Colore di sfondo */
+    color: #FFFFFF;
+    /* Colore del testo */
+    border: none;
+    /* Nessun bordo */
+    border-radius: 5px;
+    /* Angoli arrotondati */
+    padding: 10px 20px;
+    /* Spaziatura interna (verticale e orizzontale) */
+    font-size: 16px;
+    /* Dimensione del testo */
+    cursor: pointer;
+    /* Cambio del cursore quando si passa sopra */
+    text-align: center;
+    /* Allineamento del testo */
+    text-decoration: none;
+    /* Nessuna sottolineatura */
+    display: inline-block;
+    /* Permette il dimensionamento automatico del bottone */
+    transition: background-color 0.3s;
+    /* Transizione del colore di sfondo */
+}
+
+.contact-button:hover {
+    background-color: #272727;
+    /* Colore di sfondo al passaggio del mouse */
+}
+
+#recensioni {
+    text-align: center;
+    margin-top: 100px;
+    color: #272727;
+}
+
+#recensioni p {
+    font-size: 50px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Stili per le didascalie */
+.caption {
+    font-family: Arial, sans-serif;
+    /* Font per le didascalie */
+    font-size: 14px;
+    /* Dimensione del testo delle didascalie */
+    color: #333333;
+    /* Colore del testo delle didascalie */
+}
+
+#c1 {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+
+footer {
+    background-color: antiquewhite;
+    margin-top: 5%;
+}
+
+.con-foot {
+    margin: 0 auto;
+    padding-top: 3%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#other-options {
+    display: flex;
+    padding: 10px;
+    margin-right: 60px;
+    padding-top: 25px;
+}
+
+#home {
+    display: inline-block;
+    margin-left: 20px;
+    padding-top: 25px;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li {
+    padding-left: 70px;
+    font-size: 20px;
+}
+
+footer hr {
+    border: none;
+    height: 2px;
+    background-color: rgb(245, 199, 139);
+    margin: 20px 0;
+}
+
+footer nav {
+    display: flex;
+    justify-content: center;
+    /* Allinea tutto il contenuto orizzontalmente al centro */
+    padding: 20px;
+    /* Spazio interno opzionale */
+}
+
+.nav-social {
+    display: flex;
+    list-style-type: none;
+    padding-bottom: 10%;
+}
+
+.nav-item {
+    margin: 0 15px;
+    /* Spazio orizzontale tra gli elementi */
+}
+
+/* Aggiunge spazio tra il paragrafo e le icone */
+.paragraph-item {
+    flex-grow: 1;
+    /* Rende questo elemento flessibile per occupare lo spazio rimanente */
+    display: flex;
+    padding-right: 15%;
+    margin-left: 0;
+    justify-content: center;
+    /* Allinea il paragrafo al centro orizzontalmente */
 }
