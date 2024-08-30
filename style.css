@@ -4,6 +4,7 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
+    font-family: "Poppins", sans-serif;
 }
 
 #background{
@@ -33,6 +34,8 @@ button:hover{
 h1{
     color: #4A1D1F;
     text-align: right;
+    font-weight: 500;
+    font-size: 30px;
 }
 
 header img{
@@ -115,7 +118,6 @@ input{
 .head-item-6 > img{
     width: 34px;
     padding: 34px;
-    background-color: pink;
 }
 .head-item-7{/*cart icon*/
     grid-row: 1;
@@ -129,10 +131,11 @@ input{
 }
 
 .top-title{
-    color: #4A1D1F;
     width: 530px;
     height: 132px;
     font-size: 44px;
+    font-weight: bold;
+    color: #4A1D1F;
 }
 
 .top-p{
@@ -140,6 +143,8 @@ input{
     width: 510px;
     height: 108px;
     font-size: 24px;
+    font-weight: 400;
+    margin: 45px 0;
 }
 
 .top-wrap{
@@ -258,6 +263,7 @@ input{
     display: flex;
     margin-top: 8rem;
     justify-content: center;
+    color: #4A1D1F;
 }
 
 .try h2{
@@ -280,6 +286,7 @@ input{
 
 .try-line{
     margin: 0 56px;
+    color: #4A1D1F;
 }
 
 /************ best selling cakes ***************/
@@ -296,9 +303,15 @@ input{
     margin-left: 72px;
 }
 
+.cake-container h3{
+    color: black;
+    font-size: 22px;
+    font-weight: normal;
+}
 .small-rate{
     font-size: 16px;
     margin-top: auto;
+    color: #707070;
 }
 
 .best-cake {
@@ -316,4 +329,34 @@ input{
     margin-top: 108px;
     position: absolute;
     left: 85px;
+}
+
+.view-btn button{
+    height: 50px;
+    width: 130px;
+    border-radius: 4px;
+    border: solid 1px;
+    background-color: transparent;
+}
+
+.view-btn button a:link,
+.view-btn button a:visited{
+    color: #4A1D1F;
+}
+
+.view-btn:hover{
+    background-color: orange;
+}
+
+.view-btn{
+    position: relative;
+    width: 130px;
+    top: 570px;
+    left: calc(50% - 65px);/* to place center half width - half buttun size*/
+}
+
+.view-btn img{
+    height: 10px;
+    width: 29px;
+    padding-left: 5px;
 }
